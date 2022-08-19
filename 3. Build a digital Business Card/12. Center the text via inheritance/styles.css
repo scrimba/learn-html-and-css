@@ -1,0 +1,29 @@
+/*
+Challenge:
+Center the text in the <p> and <h4> elements.
+
+Note: you should only add ONE property, as inheritance 
+should take care of applying it to both elements.
+*/
+
+body {
+    margin: 20px;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
