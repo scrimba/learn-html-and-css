@@ -1,0 +1,26 @@
+.container {
+    border: 8px solid #016a26;
+    height: 260px;
+    /*
+    Challenge:
+    Follow my orders on where we should
+    leave up our lab equipment!
+    
+    justify-content:
+    start, center, end, space-around, 
+    space-evenly, space-between
+    
+    align-items:
+    start, center, end
+    */
+}
+
+.item {
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    padding: 10px;
+    font-size: 50px;
+    border: 2px solid black;
+    background: linear-gradient(#14463d, #016a26);
+}
