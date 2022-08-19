@@ -1,0 +1,27 @@
+
+
+
+.main {
+    margin-top: 100px;    
+}
+
+.logo-img {
+    display: block;
+    width: 300px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-input {
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    /*
+    Challenge: 
+    Design the search field according to the spec
+    */
+    
+}
+

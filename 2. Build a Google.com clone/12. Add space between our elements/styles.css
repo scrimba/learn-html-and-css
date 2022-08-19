@@ -1,0 +1,23 @@
+/*
+Challenge: 
+Add some space between the logo 
+and the search field.
+
+What are the two different ways 
+we can do this with margins?
+
+*/
+
+.main {
+    margin-top: 100px;    
+}
+
+.logo-img {
+    display: block;
+    width: 300px;
+}
+
+.search-input {
+    display: block;
+    width: 400px;
+}
