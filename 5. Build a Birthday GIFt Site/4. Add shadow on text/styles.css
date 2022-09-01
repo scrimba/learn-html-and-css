@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: #a2d2ff;
+    color: #ffffff;
+}
+
+/*
+Challenge:
+Add a thin blurred border around the <h1>, <h2>, 
+and <h4> using the text-shadow technique you 
+learned in the Space Exploration section. Set
+the blur to 1px and the color to black.
+*/
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+}

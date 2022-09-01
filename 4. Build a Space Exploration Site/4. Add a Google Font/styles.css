@@ -1,0 +1,19 @@
+body {
+    color: white;
+    background-image: url("images/universe.jpg");
+    background-size: cover;
+    text-align: center;
+    /* 
+    Set the font family here. 
+    */
+}
+
+.btn {
+    padding: 6px 12px;
+    background: white;
+    border: none;
+    /* 
+    You'll need to do something here as well!
+    Can you spot what it is?
+    */
+}

@@ -1,0 +1,13 @@
+/*
+Challenge:
+1. Center the text and button
+2. Style the button according to the design.
+   Use a class to select the button.
+*/
+
+body {
+    color: white;
+    background-image: url("images/universe.jpg");
+    background-size: cover;
+}
+

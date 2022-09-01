@@ -1,0 +1,76 @@
+:root {
+    --superhero: 'Bangers', cursive;
+    --fantasy: 'MedievalSharp', cursive;
+    --space: 'Orbitron', sans-serif;
+    --military: 'Black Ops One', cursive;
+    --romantic: 'La Belle Aurore', cursive;
+    --scary: 'Creepster', cursive;
+    --cowboy: 'Rye', cursive;
+    --regular: sans-serif;
+    --fantasy: 'MedievalSharp', cursive;
+    --font: var(--regular);
+    --sharp: 0;
+    --soft: 10px;
+    --round: 100px;
+    
+    --image: var(--soft);
+    
+    --background: #f5f5f5;
+    --text: #222222;
+    
+    --light: var(--background);
+    --dark: var(--text);
+}
+
+
+body, html {
+    margin: 0;
+    padding: 10px;
+    background: var(--background);
+    color: var(--text);
+    font-family: var(--font);
+}
+
+img {
+    width: 30%;
+    border-radius: calc(var(--image) * 2);
+    border: 4px solid var(--text);
+}
+
+a {
+    color: var(--text);
+}
+
+input {
+    display: block;
+    margin: 20px 0 0;
+    width: 160px;
+    box-sizing: border-box;
+    padding: 4px 8px;
+    border-width: 1px; 
+    border-style: solid;
+    border-color:  var(--text);
+    color: var(--text);
+    background: none;
+    border-radius: var(--image);
+    font-family: var(--font);
+}
+
+::placeholder {
+    color: var(--text);
+}
+
+button {
+    border-radius: var(--image);
+    padding: 5px 10px;
+    border: none;
+    background: var(--text);
+    color: var(--background);
+    font-weight: bold;
+    box-sizing: border-box;
+    display: block;
+    margin: 8px 0;
+    cursor: pointer;
+    font-family: var(--font);
+    width: 160px;
+}

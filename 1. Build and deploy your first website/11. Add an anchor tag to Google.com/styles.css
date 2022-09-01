@@ -1,0 +1,50 @@
+body, html {
+    margin: 0;
+    padding: 0; 
+}
+
+img {
+    width: 30%;
+    display: block;
+    margin: 100px auto 20px;
+    min-width: 272px;
+}
+
+input {
+    box-sizing: border-box;
+    display: block;
+    border-radius: 24px;
+    border: 1px solid rgb(223, 225, 229);
+    height: 44px;
+    margin: 0 auto 29px;
+    max-width: 564px;
+    width: 90%;
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+button {
+    box-sizing: border-box;
+    margin-top: 0;
+    padding: 0 16px;
+    font-size: 14px;
+    height: 36px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    cursor: pointer;
+}
+
+button:first-of-type {
+    margin-right: 8px;
+    margin-left: calc(50% - 131.5px);
+}
+
+button::hover {
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+    margin-top:40px;
+}
+

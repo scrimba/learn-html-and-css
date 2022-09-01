@@ -1,0 +1,16 @@
+.red-circle {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    background: #BC002D;
+    
+    /* 
+    Challenge:
+    Translate this into using the margin shorthand. 
+    */
+    margin-top: 40px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 100px;
+    
+}

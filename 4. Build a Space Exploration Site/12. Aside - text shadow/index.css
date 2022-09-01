@@ -1,0 +1,16 @@
+body {
+    letter-spacing: 4px;
+    background: #b7111b;
+    color: #fafbf4;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+/*
+Challenge:
+Try to achieve the shadow from the provided design.
+*/

@@ -1,0 +1,24 @@
+body {
+    color: white;
+    background-image: url("images/universe.jpg");
+    background-size: cover;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+/*
+Challenge 2:
+Select the logo using its "id", and reduce its
+width to a suitable level.
+*/
+
+.btn {
+    padding: 6px 12px;
+    background: white;
+    border: none;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.underline {
+    border-bottom: 4px solid white;
+}
